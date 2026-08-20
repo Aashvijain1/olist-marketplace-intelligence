@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+olist.db
+*.csv.bak
+
+# Raw/intermediate Olist CSVs -- not committed (public data, link in README)
+olist_*.csv
+clean_orders.csv
+clean_customers.csv
+clean_order_items.csv
+clean_order_payments.csv
+clean_order_reviews.csv
+clean_products.csv
+model_features.csv
