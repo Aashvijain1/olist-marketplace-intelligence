@@ -166,18 +166,18 @@ features, the 2.1x targeting lift, and 5 business recommendations.
 ## Repository Structure
 
 ```
-customer-sales-intelligence-olist/
-├── sql/            # 10 annotated .sql files — joins, CTEs, window functions,
-│                    # 4 hypothesis-testing investigations
+olist-marketplace-intelligence/
+├── sql/                          # 10 annotated .sql files — joins, CTEs, window functions,
+│                                  # 4 hypothesis-testing investigations
 ├── python/
 │   └── Customer_Sales_Intelligence_Olist.ipynb  # full analysis notebook,
 │                                                   # documented section-by-section
 ├── data/
-│   ├── rfm_segments.csv        # RFM segmentation output (93K customers)
+│   ├── rfm_segments.csv          # RFM segmentation output (93K customers)
 │   └── category_translation.csv
 ├── dashboard/
-│   ├── olist_dashboard.pbix
-│   └── screenshots/
+│   └── screenshots/               # dashboard page screenshots + data model
+│                                   # (.pbix file available under Releases →)
 ├── docs/
 │   ├── data_cleaning_log.md      # full cleaning decisions + findings write-up
 │   └── issues_and_debugging.md   # real bugs hit during development + fixes
