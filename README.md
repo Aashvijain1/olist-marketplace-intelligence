@@ -161,6 +161,8 @@ central 97%-one-time-buyer finding.
 features, the 2.1x targeting lift, and 5 business recommendations.
 ![Model Insights](dashboard/screenshots/03_model_insights.png)
 
+**Download the full interactive dashboard:** [olist_dashboard.pbix](../../releases/latest)
+
 ## Repository Structure
 
 ```
