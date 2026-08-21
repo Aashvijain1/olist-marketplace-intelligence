@@ -2,7 +2,7 @@
 
 **End-to-end analytics project on the Olist Brazilian E-Commerce dataset — SQL → Python → Power BI — built to answer one question: *why do 97% of customers never come back, and what should the business do about it?***
 
-[Power BI dashboard](#dashboard) · [Data model](#data-model) · [SQL scripts](sql/) · [Python analysis](python/) · [Findings log](docs/data_cleaning_log.md) · [Issues & debugging](docs/issues_and_debugging.md)
+[Power BI dashboard](#dashboard) · [Data model](#data-model) · [SQL scripts](sql/) · [Python analysis](python/) · [Findings log](docs/data_cleaning_log.md) · [Issues & debugging](docs/issues_and_debugging.md)  · [Executive Summary](report/Executive_Summary.docx) · [Full Report](report/Full_Analytical_Report.docx)
 
 ## Project Summary
 
@@ -181,6 +181,9 @@ olist-marketplace-intelligence/
 ├── docs/
 │   ├── data_cleaning_log.md      # full cleaning decisions + findings write-up
 │   └── issues_and_debugging.md   # real bugs hit during development + fixes
+├── report/
+│   ├── Executive_Summary.docx
+│   └── Full_Analytical_Report.docx
 └── README.md
 ```
 
